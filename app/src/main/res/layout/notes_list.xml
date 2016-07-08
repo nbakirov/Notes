@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingTop="5dp"
+        android:background="#e0d0ba">
+        <TableRow >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:paddingTop="0dip">
+
+                <TableRow
+                    android:background="#d6cea9"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_gravity="left|center_vertical"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="3dip"
+                        android:textColor="#2b2e2f"
+
+                        android:layout_span="1"
+                        android:fontFamily="Roboto"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/textTime"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="left|center_vertical"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginTop="3dip"
+                        android:textColor="#2b2e2f"
+
+                        android:layout_span="1"
+                        android:fontFamily="Roboto"
+                        />
+                </TableRow>
+
+
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+
+
+

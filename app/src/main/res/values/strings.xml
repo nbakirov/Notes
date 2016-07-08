@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Супер заметки 2016</string>
+    <string name="developer">О программе</string>
+    <string name="title_activity_create_note">Создать заметку</string>
+    <string name="add_note">Создать заметку</string>
+    <string name="title_activity_developer_info">О программе</string>
+    <string name="deleteall">Удалить всё</string>
+    <string name="share">Поделиться</string>
+    <string name="hinttonote">Введите текст заметки и нажмите кнопку Сохранить</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="show_map">Показать карту</string>
+
+</resources>
